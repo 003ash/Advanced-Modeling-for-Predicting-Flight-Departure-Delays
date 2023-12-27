@@ -4,6 +4,8 @@
 
 This project aims to predict flight departure delays in the United States, offering valuable insights into the factors influencing delays in the aviation industry. By analyzing a comprehensive dataset, we explore correlations between airport busyness, airline size, airport terrain, and departure delays. Leveraging innovative techniques, including a novel neural network architecture for regression analysis and clustering-based categorical encoding, our research provides actionable insights for optimizing airline economics and enhancing passenger experiences.
 
+The detailed report can be found here: [Link to report](https://github.com/003ash/Advanced-Modeling-for-Predicting-Flight-Departure-Delays/blob/main/CSE_519_Final_Report.pdf)
+
 ## Novel Key Features
 
 - **Categorical Encoding:** Our unique clustering-based categorical encoding algorithm efficiently handles over 9000 unique categorical values within the dataset. This robust solution ensures a meaningful representation of diverse categorical data.
@@ -29,6 +31,29 @@ The dataset employed in this study is comprehensive, spanning flight data from J
 ### Feature Selection
 
 To mitigate multicollinearity, we strategically remove one feature from each correlated pair. Feature selection techniques, including correlation heatmaps and regression analysis, guide the identification of influential features.
+
+### Exploratory Data Analysis
+
+#### A. Effect of Airport Busyness on Departure Delays
+- Investigated the relationship between airport busyness and departure delays, revealing a clear trend: as airports become busier, departure delays tend to increase.
+
+#### B. Effect of Airlines Size on Departure Delays
+- Explored the correlation between airline size and median departure delays, finding that larger airlines demonstrate lower delays, emphasizing the need for operational improvements in smaller carriers.
+
+#### C. Correlation of Altitude with Delays
+- Examined the impact of airport altitude on departure delays, concluding that no substantial correlation exists between altitude and delays.
+
+### Geospatial Data Analysis
+
+#### A. Hotspots of Flight Delays
+- Visualized median flight delays across geographic locations, identifying hotspots, particularly on the East Coast, influenced by weather conditions.
+
+#### B. Analysis of Delays by State
+- Provided a comprehensive overview of average median delays across states, highlighting regional variations and informing strategic planning.
+
+#### C. Proximity Analysis of Aviation Entities and Major Airports
+- Studied the impact of aviation entities' proximity on departure delays at major airports, revealing a limited correlation, suggesting the presence of aviation facilities may not be a significant factor causing delays.
+
 
 ### Regression Analysis
 
