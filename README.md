@@ -4,13 +4,15 @@
 
 This project aims to predict flight departure delays in the United States, offering valuable insights into the factors influencing delays in the aviation industry. By analyzing a comprehensive dataset, we explore correlations between airport busyness, airline size, airport terrain, and departure delays. Leveraging innovative techniques, including a novel neural network architecture for regression analysis and clustering-based categorical encoding, our research provides actionable insights for optimizing airline economics and enhancing passenger experiences.
 
-## Key Features
+## Novel Key Features
 
-- **Regression Analysis:** We utilize a state-of-the-art neural network architecture designed for mixed data types, allowing us to capture intricate patterns in the dataset. The model considers both categorical and numerical features, providing accurate predictions for flight departure delays.
+- **Categorical Encoding:** Our unique clustering-based categorical encoding algorithm efficiently handles over 9000 unique categorical values within the dataset. This robust solution ensures a meaningful representation of diverse categorical data.
 
-- **Categorical Encoding:** Our unique clustering-based categorical encoding algorithm efficiently handles over 9000 unique categorical values within the dataset. This robust solution ensures meaningful representation of diverse categorical data.
+- **Neural Network Architecture:** We utilize a state-of-the-art neural network architecture designed for mixed data types, allowing us to capture intricate patterns in the dataset. The model considers both categorical and numerical features, providing accurate predictions for flight departure delays.
 
-- **Geospatial Analysis:** The project incorporates geospatial analysis, utilizing tools like heat maps to identify geographic patterns and regional trends. This approach supports targeted predictive modeling, allowing for customized strategies for high-risk locations and enhancing air travel system reliability.
+
+## Dataset Description
+The dataset employed in this study is comprehensive, spanning flight data from January 2018 to August 2023. It incorporates a diverse set of features, comprising detailed flight specifics, weather parameters, and geospatial information. With a total of 100,584,764 rows, the dataset's considerable size demands the application of sophisticated data processing methods and analytical approaches.
 
 ## Methodology
 
@@ -90,4 +92,17 @@ In conclusion, our research provides valuable insights into key factors influenc
 
 ## References
 
-Include any relevant references or citations here.
+1. [U.S. Passenger Carrier Delay Costs - Airlines For America, May 2023](Reference Link 1)
+2. [Cost of delay estimates 2019 - Federal Aviation Administration, Jul 2020](Reference Link 2)
+3. [Cost of disrupted flights to the economy - AirHelp, Sep 2023](Reference Link 3)
+4. Z. Guo, B. Yu, M. Hao, W. Wang, Y. Jiang, and F. Zong, "A novel hybrid method for flight departure delay prediction using random forest regression and maximal information coefficient," Aerospace Science and Technology, vol. 116, p. 106822, 2021
+5. Q. Li, R. Jing, and Z. S. Dong, "Flight delay prediction with priority information of weather and non-weather features," IEEE Transactions on Intelligent Transportation Systems, 2023
+6. J. G. M. Anguita and O. D. Olariaga, "Flight departure delay forecasting," Journal of Airport Management, vol. 17, no. 2, pp. 197–209, 2023
+7. S. Mokhtarimousavi and A. Mehrabi, "Flight delay causality: Machine learning technique in conjunction with random parameter statistical analysis," International Journal of Transportation Science and Technology, vol. 12, no. 1, pp. 230–244, 2023
+8. D. B. Bisandu PhD and I. Moulitsas PhD, "A deep bilstm machine learning method for flight delay prediction classification," Journal of Aviation/Aerospace Education & Research, vol. 32, no. 2, p. 4, 2023
+9. A. Botchkarev, "Performance metrics (error measures) in machine learning regression, forecasting and prognostics: Properties and typology," arXiv preprint arXiv:1809.03006, 2018
+10. ˇZ. Vujovi ́c et al., "Classification model evaluation metrics," International Journal of Advanced Computer Science and Applications, vol. 12, no. 6, pp. 599–606, 2021
+11. N. Fei, Y. Gao, Z. Lu, and T. Xiang, "Z-score normalization, hubness, and few-shot learning," in Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 142–151, 2021
+12. V. Barnett, T. Lewis, et al., *Outliers in statistical data*, vol. 3. Wiley New York, 1994
+
+
