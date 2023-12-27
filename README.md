@@ -4,7 +4,7 @@
 
 This project aims to predict flight departure delays in the United States, offering valuable insights into the factors influencing delays in the aviation industry. By analyzing a comprehensive dataset, we explore correlations between airport busyness, airline size, airport terrain, and departure delays. Leveraging innovative techniques, including a novel neural network architecture for regression analysis and clustering-based categorical encoding, our research provides actionable insights for optimizing airline economics and enhancing passenger experiences.
 
-The detailed report can be found here: [Link to report](https://github.com/003ash/Advanced-Modeling-for-Predicting-Flight-Departure-Delays/blob/main/CSE_519_Final_Report.pdf)
+The detailed report can be found here: [Link to report](https://github.com/003ash/Advanced-Modeling-for-Predicting-Flight-Departure-Delays/blob/main/Advanced-Modeling-for-Predicting-Flight-Departure-Delays.pdf)
 
 ## Novel Key Features
 
