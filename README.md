@@ -2,13 +2,13 @@
 
 ## Overview
 
-This project aims to predict flight departure delays in the United States, offering valuable insights into the factors influencing delays in the aviation industry. By analyzing a comprehensive dataset, we explore correlations between airport busyness, airline size, airport terrain, and departure delays. Leveraging innovative techniques, including a novel neural network architecture for regression analysis and clustering-based categorical encoding, our research provides actionable insights for optimizing airline economics and enhancing passenger experiences.
+This project aims to predict flight departure delays in the United States, offering valuable insights into the factors influencing delays in the aviation industry. By analyzing a comprehensive dataset, we explore correlations between airport busyness, airline size, airport terrain, and departure delays. Leveraging innovative techniques, including a novel neural network architecture for regression analysis and clustering-based categorical encoding, this research provides actionable insights for optimizing airline economics and enhancing passenger experiences.
 
 The detailed report can be found here: [Link to report](https://github.com/003ash/Advanced-Modeling-for-Predicting-Flight-Departure-Delays/blob/main/Advanced-Modeling-for-Predicting-Flight-Departure-Delays.pdf)
 
 ## Novel Key Features
 
-- **Categorical Encoding:** Our unique clustering-based categorical encoding algorithm efficiently handles over 9000 unique categorical values within the dataset. This robust solution ensures a meaningful representation of diverse categorical data.
+- **Categorical Encoding:** A unique clustering-based categorical encoding algorithm efficiently handles over 9000 unique categorical values within the dataset. This robust solution ensures a meaningful representation of diverse categorical data.
 
 - **Neural Network Architecture:** We utilize a state-of-the-art neural network architecture designed for mixed data types, allowing us to capture intricate patterns in the dataset. The model considers both categorical and numerical features, providing accurate predictions for flight departure delays.
 
@@ -24,7 +24,7 @@ The dataset employed in this study is comprehensive, spanning flight data from J
 
 - **Standardization:** Numerical features are standardized to eliminate scale-related disparities, enabling fair and unbiased comparisons among features. This enhances the interpretability and performance of subsequent modeling and analytical procedures.
 
-- **Categorical Encoding:** Our distinctive clustering-based categorical encoding algorithm efficiently manages over 9000 unique categorical values, ensuring a meaningful representation of diverse categorical data.
+- **Categorical Encoding:** A distinctive clustering-based categorical encoding algorithm efficiently manages over 9000 unique categorical values, ensuring a meaningful representation of diverse categorical data.
 
 - **Outlier Removal:** Outliers, defined as values exceeding 3 standard deviations from the mean, are identified and removed to enhance model performance.
 
@@ -99,7 +99,7 @@ To facilitate classification, the target variable (DepDelay) is transformed into
 
 ## Future Work
 
-Our research opens avenues for future exploration and improvement in flight departure delay prediction. Key areas for further investigation include:
+This research opens avenues for future exploration and improvement in flight departure delay prediction. Key areas for further investigation include:
 
 - **Refinement of Neural Network Architecture:** Explore advanced techniques, such as attention mechanisms, to capture more intricate patterns in the data.
 
@@ -113,7 +113,7 @@ Our research opens avenues for future exploration and improvement in flight depa
 
 ## Conclusion
 
-In conclusion, our research provides valuable insights into key factors influencing flight departure delays in the United States. The project's innovative approaches, including a novel neural network architecture and clustering-based categorical encoding, contribute to a robust solution for predicting and understanding delays. Geospatial analysis and classification results further support targeted strategies for resource allocation, optimizing the economics of airlines, and improving passenger experiences.
+In conclusion, this research provides valuable insights into key factors influencing flight departure delays in the United States. The project's innovative approaches, including a novel neural network architecture and clustering-based categorical encoding, contribute to a robust solution for predicting and understanding delays. Geospatial analysis and classification results further support targeted strategies for resource allocation, optimizing the economics of airlines, and improving passenger experiences.
 
 ## References
 
